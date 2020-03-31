@@ -1,0 +1,13 @@
+.tooltip {
+    position: relative;
+    bottom: 1378px;
+    /* color: grey;
+    background-color: grey; */
+}
+/* .icon {
+    float: right;
+} */
+.icon:hover + .tooltip-content {
+    color: white;
+    background-color: black;
+}
