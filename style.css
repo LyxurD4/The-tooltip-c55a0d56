@@ -1,13 +1,17 @@
 .tooltip {
     position: relative;
-    bottom: 1378px;
-    /* color: grey;
-    background-color: grey; */
+    bottom: 1350px;
 }
-/* .icon {
-    float: right;
-} */
+.icon {
+    position: relative;
+    left: 400px;
+}
+.tooltip-content {
+    padding: 5px;
+    visibility: hidden;
+}
 .icon:hover + .tooltip-content {
+    visibility: visible;
     color: white;
     background-color: black;
 }
